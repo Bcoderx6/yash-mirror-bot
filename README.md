@@ -1,6 +1,3 @@
-```diff 
-- [ DEAD REPO AND NO MORE UPDATE ]
-```
 [![SlamDevs](https://telegra.ph/file/143032e96542e7534f073.jpg)](https://t.me/SlamDevs)
 
 # Slam Mirror Bot
