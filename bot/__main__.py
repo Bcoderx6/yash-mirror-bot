@@ -45,21 +45,22 @@ def stats(update, context):
 
 def start(update, context):
     buttons = button_build.ButtonMaker()
-    buttons.buildbutton("REPO🎯🧨", "https://github.com/Bcoderx6/slam-mirrorbot")
-    buttons.buildbutton("OWNER🎯🧨", "https://t.me/YASHPUTHA")
+    buttons.buildbutton("REPO 🎯🧨", "https://github.com/Bcoderx6/yash-mirrorbot")
+    buttons.buildbutton("OWNER 🎯🧨", "https://t.me/YASHPUTHA")
+    buttons.buildbutton("GITHUB 🎯🧨", "https://github.com/Bcoderx6")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
-🔑THIS BOT CAN MIRROR ALL YOUR LINKS TO GOOGLE DRIVE!😎
+🔑THIS BOT CAN MIRROR ALL YOUR LINKS TO GOOGLE DRIVE && INDEX URL!😎
 
-🧨BOT AND REPO OWNER@YASHPUTHA🎯
+🧨BOT AND REPO OWNER @YASHPUTHA🎯
 
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
         sendMarkup(start_string, context.bot, update, reply_markup)
     else:
         sendMarkup(
-            'Oops! not a Authorized user.\nPlease deploy your own <b>slam-mirrorbot</b>.',
+            'Oops! not a Authorized user.\nPlease deploy your own <b>yash-mirrorbot</b>.',
             context.bot,
             update,
             reply_markup,
@@ -157,9 +158,9 @@ help_string_telegraph = f'''<br>
 <b>/{BotCommands.StatsCommand}</b>: Show Stats of the machine the bot is hosted on
 '''
 help = Telegraph(access_token=telegraph_token).create_page(
-        title='YASH MIRRORBOT HELP',
+        title='YASH MIRRORBOT',
         author_name='YASHPUTHA',
-        author_url='https://github.com/Bcoderx6/slam-mirrorbot',
+        author_url='https://github.com/Bcoderx6/yash-mirrorbot',
         html_content=help_string_telegraph,
     )["path"]
 
