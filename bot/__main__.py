@@ -53,9 +53,9 @@ def start(update, context):
         start_string = f'''
 🔑THIS BOT CAN MIRROR ALL YOUR LINKS TO GOOGLE DRIVE && INDEX URL!😎
 
-🧨BOT AND REPO OWNER @YASHPUTHA🎯
+🧨BOT AND REPO OWNER @YASHPUTHA�
 
-Type /{BotCommands.HelpCommand} to get a list of available commands
+Type /{BotCommands.HelpCommand} TO GET A LIST OF AVAILABLE COMMANDS 😎
 '''
         sendMarkup(start_string, context.bot, update, reply_markup)
     else:
@@ -93,69 +93,69 @@ def log(update, context):
 help_string_telegraph = f'''<br>
 <b>/{BotCommands.HelpCommand}</b>: To get this message
 <br><br>
-<b>/{BotCommands.MirrorCommand}</b> [download_url][magnet_link]: Start mirroring the link to Google Drive.
+<b>/{BotCommands.MirrorCommand}</b> [DOWNLOAD_URL][MAGNET_LINK]: START MIRRORING THE LINK TO GOOGLE DRIVE.
 <br><br>
-<b>/{BotCommands.TarMirrorCommand}</b> [download_url][magnet_link]: Start mirroring and upload the archived (.tar) version of the download
+<b>/{BotCommands.TarMirrorCommand}</b> [DOWNLOAD_URL][MAGNET_LINK]: START MIRRORING AND UPLOAD THE ARCHIVED (.TAR) VERSION OF THE DOWNLOAD.
 <br><br>
-<b>/{BotCommands.ZipMirrorCommand}</b> [download_url][magnet_link]: Start mirroring and upload the archived (.zip) version of the download
+<b>/{BotCommands.ZipMirrorCommand}</b> [DOWNLOAD_URL][MAGNET_LINK]: START MIRRORING AND UPLOAD THE ARCHIVED (.ZIP) VERSION OF THE DOWNLOAD.
 <br><br>
-<b>/{BotCommands.UnzipMirrorCommand}</b> [download_url][magnet_link]: Starts mirroring and if downloaded file is any archive, extracts it to Google Drive
+<b>/{BotCommands.UnzipMirrorCommand}</b> [DOWNLOAD_URL][MAGNET_LINK]: STARTS MIRRORING AND IF DOWNLOADED FILE IS ANY ARCHIVE, EXTRACTS IT TO GOOGLE DRIVE.
 <br><br>
-<b>/{BotCommands.QbMirrorCommand}</b> [magnet_link]: Start Mirroring using qBittorrent, Use <b>/{BotCommands.QbMirrorCommand} s</b> to select files before downloading
+<b>/{BotCommands.QbMirrorCommand}</b> [MAGNET_LINK]: START MIRRORING USING QBITTORRENT, USE <b>/{BotCommands.QbMirrorCommand} s</b> TO SELECT FILES BEFORE DOWNLOADING.
 <br><br>
-<b>/{BotCommands.QbTarMirrorCommand}</b> [magnet_link]: Start mirroring using qBittorrent and upload the archived (.tar) version of the download
+<b>/{BotCommands.QbTarMirrorCommand}</b> [MAGNET_LINK]: START MIRRORING USING QBITTORRENT AND UPLOAD THE ARCHIVED (.TAR) VERSION OF THE DOWNLOAD.
 <br><br>
-<b>/{BotCommands.QbZipMirrorCommand}</b> [magnet_link]: Start mirroring using qBittorrent and upload the archived (.zip) version of the download
+<b>/{BotCommands.QbZipMirrorCommand}</b> [MAGNET_LINK]: START MIRRORING USING QBITTORRENT AND UPLOAD THE ARCHIVED (.ZIP) VERSION OF THE DOWNLOAD.
 <br><br>
-<b>/{BotCommands.QbUnzipMirrorCommand}</b> [magnet_link]: Starts mirroring using qBittorrent and if downloaded file is any archive, extracts it to Google Drive
+<b>/{BotCommands.QbUnzipMirrorCommand}</b> [MAGNET_LINK]: STARTS MIRRORING USING QBITTORRENT AND IF DOWNLOADED FILE IS ANY ARCHIVE, EXTRACTS IT TO GOOGLE DRIVE.
 <br><br>
-<b>/{BotCommands.LeechCommand}</b> [download_url][magnet_link]: Start leeching to Telegram, Use <b>/{BotCommands.LeechCommand} s</b> to select files before leeching
+<b>/{BotCommands.LeechCommand}</b> [DOWNLOAD_URL][MAGNET_LINK]: START LEECHING TO TELEGRAM, USE <b>/{BotCommands.LeechCommand} s</b> TO SELECT FILES BEFORE LEECHING.
 <br><br>
-<b>/{BotCommands.TarLeechCommand}</b> [download_url][magnet_link]:  Start leeching to Telegram and upload it as (.tar)
+<b>/{BotCommands.TarLeechCommand}</b> [DOWNLOAD_URL][MAGNET_LINK]:  START LEECHING TO TELEGRAM AND UPLOAD IT AS (.TAR).
 <br><br>
-<b>/{BotCommands.ZipLeechCommand}</b> [download_url][magnet_link]: Start leeching to Telegram and upload it as (.zip)
+<b>/{BotCommands.ZipLeechCommand}</b> [DOWNLOAD_URL][MAGNET_LINK]: START LEECHING TO TELEGRAM AND UPLOAD IT AS (.ZIP).
 <br><br>
-<b>/{BotCommands.UnzipLeechCommand}</b> [download_url][magnet_link]: Start leeching to Telegram and if downloaded file is any archive, extracts it to Telegram
+<b>/{BotCommands.UnzipLeechCommand}</b> [DOWNLOAD_URL][MAGNET_LINK]: START LEECHING TO TELEGRAM AND IF DOWNLOADED FILE IS ANY ARCHIVE, EXTRACTS IT TO TELEGRAM.
 <br><br>
-<b>/{BotCommands.QbLeechCommand}</b> [magnet_link]: Start leeching to Telegram using qBittorrent, Use <b>/{BotCommands.QbLeechCommand} s</b> to select files before leeching
+<b>/{BotCommands.QbLeechCommand}</b> [MAGNET_LINK]: START LEECHING TO TELEGRAM USING QBITTORRENT, USE <b>/{BotCommands.QbLeechCommand} s</b> TO SELECT FILES BEFORE LEECHING.
 <br><br>
-<b>/{BotCommands.QbTarLeechCommand}</b> [magnet_link]: Start leeching to Telegram using qBittorrent and upload it as (.tar)
+<b>/{BotCommands.QbTarLeechCommand}</b> [MAGNET_LINK]: START LEECHING TO TELEGRAM USING QBITTORRENT AND UPLOAD IT AS (.TAR).
 <br><br>
-<b>/{BotCommands.QbZipLeechCommand}</b> [magnet_link]: Start leeching to Telegram using qBittorrent and upload it as (.zip)
+<b>/{BotCommands.QbZipLeechCommand}</b> [MAGNET_LINK]: START LEECHING TO TELEGRAM USING QBITTORRENT AND UPLOAD IT AS (.ZIP).
 <br><br>
-<b>/{BotCommands.QbUnzipLeechCommand}</b> [magnet_link]: Start leeching to Telegram using qBittorrent and if downloaded file is any archive, extracts it to Telegram
+<b>/{BotCommands.QbUnzipLeechCommand}</b> [MAGNET_LINK]: START LEECHING TO TELEGRAM USING QBITTORRENT AND IF DOWNLOADED FILE IS ANY ARCHIVE, EXTRACTS IT TO TELEGRAM.
 <br><br>
-<b>/{BotCommands.CloneCommand}</b> [drive_url]: Copy file/folder to Google Drive
+<b>/{BotCommands.CloneCommand}</b> [DRIVE_URL]: COPY FILE/FOLDER TO GOOGLE DRIVE.
 <br><br>
-<b>/{BotCommands.CountCommand}</b> [drive_url]: Count file/folder of Google Drive Links
+<b>/{BotCommands.CountCommand}</b> [DRIVE_URL]: COUNT FILE/FOLDER OF GOOGLE DRIVE LINKS.
 <br><br>
-<b>/{BotCommands.DeleteCommand}</b> [drive_url]: Delete file from Google Drive (Only Owner & Sudo)
+<b>/{BotCommands.DeleteCommand}</b> [DRIVE_URL]: DELETE FILE FROM GOOGLE DRIVE (ONLY OWNER & SUDO).
 <br><br>
-<b>/{BotCommands.WatchCommand}</b> [youtube-dl supported link]: Mirror through youtube-dl. Click <b>/{BotCommands.WatchCommand}</b> for more help
+<b>/{BotCommands.WatchCommand}</b> [YOUTUBE-DL SUPPORTED LINK]: MIRROR THROUGH YOUTUBE-DL. CLICK <b>/{BotCommands.WatchCommand}</b> FOR MORE HELP.
 <br><br>
-<b>/{BotCommands.TarWatchCommand}</b> [youtube-dl supported link]: Mirror through youtube-dl and tar before uploading
+<b>/{BotCommands.TarWatchCommand}</b> [YOUTUBE-DL SUPPORTED LINK]: MIRROR THROUGH YOUTUBE-DL AND TAR BEFORE UPLOADING.
 <br><br>
-<b>/{BotCommands.ZipWatchCommand}</b> [youtube-dl supported link]: Mirror through youtube-dl and zip before uploading
+<b>/{BotCommands.ZipWatchCommand}</b> [YOUTUBE-DL SUPPORTED LINK]: MIRROR THROUGH YOUTUBE-DL AND ZIP BEFORE UPLOADING.
 <br><br>
-<b>/{BotCommands.LeechWatchCommand}</b> [youtube-dl supported link]: Leech through youtube-dl 
+<b>/{BotCommands.LeechWatchCommand}</b> [YOUTUBE-DL SUPPORTED LINK]: LEECH THROUGH YOUTUBE-DL.
 <br><br>
-<b>/{BotCommands.LeechTarWatchCommand}</b> [youtube-dl supported link]: Leech through youtube-dl and tar before uploading 
+<b>/{BotCommands.LeechTarWatchCommand}</b> [YOUTUBE-DL SUPPORTED LINK]: LEECH THROUGH YOUTUBE-DL AND TAR BEFORE UPLOADING.
 <br><br>
-<b>/{BotCommands.LeechZipWatchCommand}</b> [youtube-dl supported link]: Leech through youtube-dl and zip before uploading 
+<b>/{BotCommands.LeechZipWatchCommand}</b> [YOUTUBE-DL SUPPORTED LINK]: LEECH THROUGH YOUTUBE-DL AND ZIP BEFORE UPLOADING. 
 <br><br>
-<b>/{BotCommands.LeechSetCommand}</b>: Leech Settings 
+<b>/{BotCommands.LeechSetCommand}</b>: LEECH SETTINGS.
 <br><br>
-<b>/{BotCommands.SetThumbCommand}</b>: Reply photo to set it as Thumbnail
+<b>/{BotCommands.SetThumbCommand}</b>: REPLY PHOTO TO SET IT AS THUMBNAIL.
 <br><br>
-<b>/{BotCommands.CancelMirror}</b>: Reply to the message by which the download was initiated and that download will be cancelled
+<b>/{BotCommands.CancelMirror}</b>: REPLY TO THE MESSAGE BY WHICH THE DOWNLOAD WAS INITIATED AND THAT DOWNLOAD WILL BE CANCELLED.
 <br><br>
-<b>/{BotCommands.CancelAllCommand}</b>: Cancel all running tasks
+<b>/{BotCommands.CancelAllCommand}</b>: CANCEL ALL RUNNING TASKS.
 <br><br>
-<b>/{BotCommands.ListCommand}</b> [search term]: Searches the search term in the Google Drive, If found replies with the link
+<b>/{BotCommands.ListCommand}</b> [SEARCH TERM]: SEARCHES THE SEARCH TERM IN THE GOOGLE DRIVE, IF FOUND REPLIES WITH THE LINK.
 <br><br>
-<b>/{BotCommands.StatusCommand}</b>: Shows a status of all the downloads
+<b>/{BotCommands.StatusCommand}</b>: SHOWS A STATUS OF ALL THE DOWNLOADS.
 <br><br>
-<b>/{BotCommands.StatsCommand}</b>: Show Stats of the machine the bot is hosted on
+<b>/{BotCommands.StatsCommand}</b>: SHOW STATS OF THE MACHINE THE BOT IS HOSTED ON.
 '''
 help = Telegraph(access_token=telegraph_token).create_page(
         title='YASH MIRRORBOT',
@@ -165,29 +165,29 @@ help = Telegraph(access_token=telegraph_token).create_page(
     )["path"]
 
 help_string = f'''
-/{BotCommands.PingCommand}: Check how long it takes to Ping the Bot
+/{BotCommands.PingCommand}: CHECK HOW LONG IT TAKES TO PING THE BOT
 
-/{BotCommands.AuthorizeCommand}: Authorize a chat or a user to use the bot (Can only be invoked by Owner & Sudo of the bot)
+/{BotCommands.AuthorizeCommand}: AUTHORIZE A CHAT OR A USER TO USE THE BOT (CAN ONLY BE INVOKED BY OWNER & SUDO OF THE BOT)
 
-/{BotCommands.UnAuthorizeCommand}: Unauthorize a chat or a user to use the bot (Can only be invoked by Owner & Sudo of the bot)
+/{BotCommands.UnAuthorizeCommand}: UNAUTHORIZE A CHAT OR A USER TO USE THE BOT (CAN ONLY BE INVOKED BY OWNER & SUDO OF THE BOT)
 
-/{BotCommands.AuthorizedUsersCommand}: Show authorized users (Only Owner & Sudo)
+/{BotCommands.AuthorizedUsersCommand}: SHOW AUTHORIZED USERS (ONLY OWNER & SUDO)
 
-/{BotCommands.AddSudoCommand}: Add sudo user (Only Owner)
+/{BotCommands.AddSudoCommand}: ADD SUDO USER (ONLY OWNER)
 
-/{BotCommands.RmSudoCommand}: Remove sudo users (Only Owner)
+/{BotCommands.RmSudoCommand}: REMOVE SUDO USERS (ONLY OWNER)
 
-/{BotCommands.RestartCommand}: Restart the bot
+/{BotCommands.RestartCommand}: RESTART THE BOT
 
-/{BotCommands.LogCommand}: Get a log file of the bot. Handy for getting crash reports
+/{BotCommands.LogCommand}: GET A LOG FILE OF THE BOT. HANDY FOR GETTING CRASH REPORTS
 
-/{BotCommands.SpeedCommand}: Check Internet Speed of the Host
+/{BotCommands.SpeedCommand}: CHECK INTERNET SPEED OF THE HOST
 
-/{BotCommands.ShellCommand}: Run commands in Shell (Only Owner)
+/{BotCommands.ShellCommand}: RUN COMMANDS IN SHELL (ONLY OWNER)
 
-/{BotCommands.ExecHelpCommand}: Get help for Executor module (Only Owner)
+/{BotCommands.ExecHelpCommand}: GET HELP FOR EXECUTOR MODULE (ONLY OWNER)
 
-/{BotCommands.TsHelpCommand}: Get help for Torrent search module
+/{BotCommands.TsHelpCommand}: GET HELP FOR TORRENT SEARCH MODULE
 '''
 
 def bot_help(update, context):
