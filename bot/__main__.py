@@ -53,7 +53,7 @@ def start(update, context):
         start_string = f'''
 🔑THIS BOT CAN MIRROR ALL YOUR LINKS TO GOOGLE DRIVE && INDEX URL!😎
 
-🧨BOT AND REPO OWNER @YASHPUTHA�
+🧨BOT AND REPO OWNER @YASHPUTHA
 
 Type /{BotCommands.HelpCommand} TO GET A LIST OF AVAILABLE COMMANDS 😎
 '''
