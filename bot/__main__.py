@@ -45,15 +45,15 @@ def stats(update, context):
 
 def start(update, context):
     buttons = button_build.ButtonMaker()
-    buttons.buildbutton("REPO 🎯🧨", "https://github.com/Bcoderx6/yash-mirrorbot")
-    buttons.buildbutton("OWNER 🎯🧨", "https://t.me/YASHPUTHA")
+    buttons.buildbutton("REPO 🎯🧨", "https://github.com/Bcoderx6")
+    buttons.buildbutton("OWNER 🎯🧨", "https://t.me/Y_A_S_H_x")
     buttons.buildbutton("GITHUB 🎯🧨", "https://github.com/Bcoderx6")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
 🔑THIS BOT CAN MIRROR ALL YOUR LINKS TO GOOGLE DRIVE && INDEX URL!😎
 
-🧨BOT AND REPO OWNER @YASHPUTHA
+🧨BOT AND REPO OWNER @Y_A_S_H_x
 
 Type /{BotCommands.HelpCommand} TO GET A LIST OF AVAILABLE COMMANDS 😎
 '''
